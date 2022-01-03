@@ -9,6 +9,8 @@
     color: #0f0070;
     background-color: #e6ebfa;
   }
+  /*creating a header that will stick to the website during scorlling*/
+
   header{
     z-index: 9999;
     padding-right: 20px;
@@ -39,6 +41,7 @@
     font-size: 36px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   }
+  
   div h1 a{
     text-decoration: none;
     color: #3A6B35;
@@ -65,6 +68,8 @@
     padding: 10px 15px;
     
   }
+  /*using pseudo elment to create a hovering effect over navigation menu*/
+
   header nav ul li a:hover{
       background:#CBD18F;
       color: #3A6B35;
@@ -73,3 +78,38 @@
       text-decoration: none;
   }
   
+  /*building the hero part with background image*/
+  .hero{
+      background-image: url(assets/image/istockphoto.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: right;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      background-attachment: fixed;
+      background-position: 80%;
+  }
+  .hero-sub{
+    width: 35%;
+    text-align: right;
+    margin: 4%;
+    color: #fff;
+    font-size: 12px;
+    position:relative;
+  }
+  /*puting a nice quote*/
+  .hero-sub h3 {
+    position:absolute; top: 0;right: 0;
+    font-style: italic;
+    font-size: 16px;
+    color:#E3B448;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    
+  }
+  .hero-sub h3:hover{
+    background:#CBD18F;
+    color: #3A6B35;
+    border-radius: 5px;
+    text-shadow: none;
+    text-decoration: none;
+}
