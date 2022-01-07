@@ -103,7 +103,7 @@
   .hero-sub h3 {
 
     font-style: italic;
-    font-size: 16px;
+    font-size: 17px;
     color:#E3B448;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     
@@ -139,7 +139,37 @@
   padding: 20;
 }
 .text{
+  color: #3A6B35;
   width:45%;
+}
+.flex-row{
+  display: flex;
+}
+.work{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 0%;
+}
+.projects{
+  margin: 20px;
+  flex: 1;
+  background-color: #E3B448;
+  color: #3A6B35;
+}
+.projects img{
+  width: 100%;
+}
+.project-info{
+  padding: 25px;
+}
+.project-info h3{
+  font-size: 28px;
+}
+.project-info p{
+  font-size: 17px;
 }
 
 
