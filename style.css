@@ -251,6 +251,68 @@ footer nav ul li a:hover{
   text-shadow: none;
   text-decoration: none;
 }
+/* Media query for small desktop screens and smaller*/
+@media screen and (max-width: 980px){
+header {
+  padding-bottom: 0;
+  justify-content: center;
+  position: relative;
+}
+header h1 {
+  width: 100%;
+  text-align: center;
+}
+header nav ul {
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+}
+header nav ul li a {
+  font-size: 20px;
+}
+footer h2, footer div {
+  text-align: center;
+  width: 100%;
+}
+.projects {
+  flex: 0 70%;
+}
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+    .project-info h3,{
+      display: block;
+    }
+}
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+  
+    .linking {
+      width: 95%;
+    }
+  
+    .about-me p {
+      width: 100%;
+    }
+  
+    .projects {
+      flex: 0 100%;
+    }
+  
+    .linking{
+      text-align: center;
+    }
+  
+    .linking > * {
+      flex: 0 100%;
+    }
+  
+  }
 
 
 
