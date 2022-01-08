@@ -56,8 +56,6 @@
     justify-content: space-between;
     align-items: center;
     list-style:none;
-
-
   }
   header nav ul li a{
     font-family:Georgia, 'Times New Roman', Times, serif; 
@@ -145,9 +143,10 @@
 .flex-row{
   display: flex;
 }
+/*styling my work section*/
+
 .work{
   width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -158,12 +157,35 @@
   flex: 1;
   background-color: #E3B448;
   color: #3A6B35;
+  display: flex;
+  flex-direction: column;
 }
 .projects img{
   width: 100%;
 }
+.flex-row{
+  justify-content: center;
+}
+.work-edit{
+  font-size: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #3A6B35;
+  padding-top: 20px;
+}
+.hork-edit h2:hover{
+  background:#CBD18F;
+  color: #3A6B35;
+  border-radius: 5px;
+  text-shadow: none;
+  text-decoration: none;
+}
 .project-info{
-  padding: 25px;
+   align-items: center;
+    padding: 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 .project-info h3{
   font-size: 28px;
@@ -171,8 +193,64 @@
 .project-info p{
   font-size: 17px;
 }
+/*styling my footer part*/
+footer{
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color:#E3B448;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+.linking{
+  background-color:#CBD18F;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer h2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+  color: #3A6B35;
+  padding: 10px 10px 5px 40px;
+  font-weight: bold;
+  font-size: 36px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+footer nav{
+  margin: 7px 0;
+}
+footer nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style:none;
+}
+footer nav ul li a{
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+  color: #3A6B35;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 10px 15px;
+  
+}
+/*using pseudo elment to create a hovering effect over navigation menu*/
 
-
+footer nav ul li a:hover{
+  background:#CBD18F;
+  color: #3A6B35;
+  border-radius: 15px;
+  text-shadow: none;
+  text-decoration: none;
+}
 
 
 
