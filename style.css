@@ -162,6 +162,9 @@
 }
 .projects img{
   width: 100%;
+  height: 20rem ;
+ 
+
 }
 .flex-row{
   justify-content: center;
